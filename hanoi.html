@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="Autor" content="JMJ">
+    <script src="./logica.js"></script>
+    <title>Las torres de Hanoi</title>
+    <link rel="stylesheet" href="./stylehanoi.css">
+</head>
+<header>
+    <h1 id="titulo2">Torre de Hanoi</h1>
+</header>
+<body>
+    <div id="sugerencia">
+        <p id="mensaje">Para resolver la Torre de Hanoi:</p>
+        <div id="contenedorP">
+            <p>Mueve un disco a la vez.</p> 
+            <p> Nunca pongas un disco grande sobre uno más pequeño.</p>
+            <p>Utiliza una varilla auxiliar si es necesario. </p>
+            <p>Repite el proceso hasta que todos los discos estén en la varilla final.</p>
+            <p> Recuerda: ¡paciencia y seguimiento de reglas! </p>
+        </div>
+    </div>
+
+    <button id="boton-recargar" style="display: none;">Recargar página</button>
+
+        <h1 id="titulo">Selecciona un nivel</h1>
+        
+    <div id="botones">
+        <button id="facil" class="boton-nivel" onclick="seleccionarNivel('facil')">Fácil</button>
+        <button id="medio" class="boton-nivel" onclick="seleccionarNivel('medio')">Medio</button>
+        <button id="dificil" class="boton-nivel" onclick="seleccionarNivel('dificil')">Difícil</button>
+    </div>
+
+    <!-- <div class="btn-bg Pokemon">
+        <div class="btn-info">Pokémon</div>
+        <div class="btn-mention"><span>get Up, get Out, and Explore!</span></div>
+        <div class="btn-group">
+          <div class="btn ball">
+            <button>
+              <div class="pokemon-ball"></div><a>Pokémon   <span data-letters="Go!"></span><span data-letters="Go!"></span></a>
+            </button>
+            <button>
+                <div class="boton-nivel" onclick="seleccionarNivel('medio')"></div><a>Pokémon   <span data-letters="Go!"></span><span data-letters="Go!"></span></a>
+            </button>
+          </div>
+        </div>
+      </div> -->
+
+</body>
+</html>

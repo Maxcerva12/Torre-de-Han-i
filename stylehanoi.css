@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+#titulo2 {
+    position: relative;
+    top: -30px;
+    text-Align: center;
+    font-Size: 48px;
+    margin-Top: 50px;
+    text-Transform: uppercase;
+}
+#titulo {
+    position: relative;
+    top: -30px;
+    text-Align: center;
+    font-Size: 48px;
+    margin-Top: 50px;
+    text-Transform: uppercase;
+}
+
+.pata1 {
+    left: 18px;
+}
+.pata2 {
+    left: 33%;
+}
+.pata3 {
+    right: 59px;
+}
+
+.torre {
+    margin-Top: 170px;
+  }
+
+#contenedorP{
+    display: flex;
+    top: 140px;
+    position: absolute;
+    border: 12px solid #000400;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 5px;
+}
+
+#mensaje{
+    top: 100px;
+    position: absolute;
+    font-size: 24px;
+    left: 590px;
+    display: block;
+    margin: 8px;
+}

@@ -1,5 +1,5 @@
 Torre de Hanói
-Este es un juego digital de la Torre de Hanói creado en Python.
+Este es un juego digital de la Torre de Hanói creado en javaScript.
 
 Descripción
 La Torre de Hanói es un rompecabezas clásico que consiste en tres varillas y un número de discos de diferentes tamaños que pueden deslizarse sobre las varillas. El objetivo del puzzle es mover toda la pila de discos a otra varilla obedeciendo las siguientes reglas:
